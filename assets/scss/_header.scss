@@ -1,0 +1,49 @@
+nav {
+    background-color: $color-primario;
+
+    ul {
+        li{
+            list-style: none;
+            padding: 10px;
+
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: $font-size-nav;
+                
+            }
+        }
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+}
+
+@media (max-width:768px){
+    nav{
+        &:hover{
+            li {
+                display: block;
+            }
+        }
+        ul {
+            
+            li {
+                display: none;
+            }
+          
+        }
+
+        .fa-bars {
+            display: block;
+            color: white;
+            font-size: 30px;
+            padding: 10px;
+
+        }
+
+    }
+
+}

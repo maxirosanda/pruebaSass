@@ -1,0 +1,48 @@
+.container-fluid {
+  padding: 0;
+}
+
+nav {
+  background-color: #62aa16;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+nav .fa-bars {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  nav:hover li {
+    display: block;
+  }
+  nav ul li {
+    display: none;
+  }
+  nav .fa-bars {
+    display: block;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+  }
+}
+
+.post {
+  border: solid 2px red;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #62aa16;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
